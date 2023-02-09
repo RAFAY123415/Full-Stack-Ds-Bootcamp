@@ -11,7 +11,8 @@ def get_model():
 
 
 tokenizer,model = get_model()
-
+]
+st.header("Toxic Comment Classifier")
 user_input = st.text_area('Enter Text to Analyze')
 button = st.button("Analyze")
 
